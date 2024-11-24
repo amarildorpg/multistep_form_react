@@ -22,33 +22,23 @@ Este projeto é uma aplicação em React que implementa um formulário multi-eta
 A estrutura principal do repositório é organizada da seguinte forma:
 
 multistep_form_react/ 
-{
-├── public/ 
-│ 
-└── index.html 
-├── src/ 
-│ 
-├── components/ 
-│ 
-│ 
-├── Step1.jsx 
-│ 
-│ 
-├── Step2.jsx 
-│ 
-│ 
-├── Step3.jsx 
-│ 
-│ 
-└── Navigation.jsx 
-│ 
-├── App.jsx 
-│ 
-└── index.jsx 
-├── package.json 
-├── vite.config.js 
+```plaintext
+multistep_form_react/
+├── public/
+│   └── index.html
+├── src/
+│   ├── components/
+│   │   ├── Step1.jsx
+│   │   ├── Step2.jsx
+│   │   ├── Step3.jsx
+│   │   └── Navigation.jsx
+│   ├── App.jsx
+│   └── index.jsx
+├── package.json
+├── vite.config.js
 └── README.md
-}
+```
+
 - **`public/index.html`**: Arquivo HTML principal.
 - **`src/components/`**: Contém os componentes individuais para as etapas do formulário e a navegação.
 - **`src/App.jsx`**: Gerencia o fluxo das etapas e os dados do formulário.
